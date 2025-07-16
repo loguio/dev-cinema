@@ -2,11 +2,11 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f6f8fa;
-    color: #222b36;
+    background: #f8f6f6;
+    color: #2d1a05;
 }
 header {
-    background: #3a506b;
+    background: #b23a48;
     color: #fff;
     padding: 1.5rem 2rem 1rem 2rem;
     display: flex;
@@ -16,7 +16,7 @@ header {
     gap: 0.3rem;
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
-    box-shadow: 0 2px 8px #dbe2ef;
+    box-shadow: 0 2px 8px #e6b3b3;
 }
 header h1 {
     margin: 0;
@@ -38,19 +38,19 @@ header h1 {
     font-size: 1.05rem;
     padding: 0.4rem 1.1rem;
     border-radius: 6px;
-    background: #5bc0be;
+    background: #e05d5d;
     box-shadow: none;
     transition: background 0.2s, color 0.2s;
 }
 .headbar a:hover {
-    background: #1c2541;
+    background: #7b1e23;
     color: #fff;
 }
 main {
     padding: 2rem 1.5rem 5rem 1.5rem;
     min-height: 70vh;
     background: #fff;
-    box-shadow: 0 0 10px #e0e5ec;
+    box-shadow: 0 0 10px #e6b3b3;
     border-radius: 18px;
     margin: 2rem auto 2rem auto;
     max-width: 900px;
@@ -58,7 +58,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem 1rem;
-    background: #3a506b;
+    background: #b23a48;
     color: #fff;
     position: fixed;
     width: 100%;
@@ -68,7 +68,7 @@ footer {
     letter-spacing: 1px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
-    box-shadow: 0 -2px 8px #dbe2ef;
+    box-shadow: 0 -2px 8px #e6b3b3;
 }
 .films {
     font-size: 1.1rem;
@@ -77,32 +77,32 @@ footer {
     border-collapse: collapse;
     width: 60%;
     margin: 1rem auto;
-    background: #f6f8fa;
+    background: #f8f6f6;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 6px #e0e5ec;
+    box-shadow: 0 2px 6px #e6b3b3;
 }
 .tarifs th, .tarifs td {
-    border: 1px solid #bfc9d1;
+    border: 1px solid #e05d5d;
     padding: 0.7rem 1.2rem;
     text-align: left;
 }
 .tarifs th {
-    background: #5bc0be;
+    background: #e05d5d;
     color: #fff;
 }
 .plan {
-    background: #f6f8fa;
+    background: #f8f6f6;
     padding: 1rem;
     border-radius: 8px;
     font-family: monospace;
     display: inline-block;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 6px #e0e5ec;
+    box-shadow: 0 2px 6px #e6b3b3;
 }
 .map-link {
     display: inline-block;
-    background: #5bc0be;
+    background: #e05d5d;
     color: #fff;
     padding: 0.7rem 1.3rem;
     border-radius: 6px;
@@ -113,7 +113,7 @@ footer {
     transition: background 0.2s, color 0.2s;
 }
 .map-link:hover {
-    background: #1c2541;
+    background: #7b1e23;
     color: #fff;
 }
 header, .headbar, main, .films, .tarifs, .plan, address {
@@ -123,18 +123,18 @@ header, .headbar, main, .films, .tarifs, .plan, address {
     font-size: 1.05rem;
     font-weight: 500;
     margin-top: 0.2rem;
-    color: #5bc0be;
+    color: #e05d5d;
     letter-spacing: 1px;
 }
 address {
     margin: 1.2rem auto;
     font-style: normal;
     font-size: 1.05rem;
-    background: #f6f8fa;
+    background: #f8f6f6;
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 6px #e0e5ec;
+    box-shadow: 0 2px 6px #e6b3b3;
 }
 .tarifs {
     margin-left: auto;
@@ -144,23 +144,23 @@ address {
     border-collapse: collapse;
     width: 80%;
     margin: 2rem auto;
-    background: #f6f8fa;
-    box-shadow: 0 2px 6px #e0e5ec;
+    background: #f8f6f6;
+    box-shadow: 0 2px 6px #e6b3b3;
     border-radius: 8px;
     overflow: hidden;
 }
 .programme th, .programme td {
-    border: 1px solid #bfc9d1;
+    border: 1px solid #e05d5d;
     padding: 0.8rem 1.2rem;
     text-align: center;
     font-size: 1.05rem;
 }
 .programme th {
-    background: #5bc0be;
+    background: #e05d5d;
     color: #fff;
 }
 .programme tr:nth-child(even) {
-    background: #eaf0f6;
+    background: #f3eaea;
 }
 @media (max-width: 700px) {
     main {
