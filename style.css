@@ -2,11 +2,11 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fff7f0;
-    color: #2d1a05;
+    background: #f6f8fa;
+    color: #222b36;
 }
 header {
-    background: linear-gradient(90deg, #ffb347 0%, #ff6e7f 100%);
+    background: #3a506b;
     color: #fff;
     padding: 1.5rem 2rem 1rem 2rem;
     display: flex;
@@ -14,62 +14,61 @@ header {
     justify-content: center;
     flex-direction: column;
     gap: 0.3rem;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0 2px 12px #ffd6b3;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    box-shadow: 0 2px 8px #dbe2ef;
 }
 header h1 {
     margin: 0;
-    font-size: 2.3rem;
-    letter-spacing: 2px;
-    font-weight: 800;
-    text-shadow: 1px 2px 8px #ffb34755;
+    font-size: 2.1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-shadow: none;
 }
 .headbar {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     justify-content: center;
     margin-top: 0.5rem;
 }
 .headbar a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding: 0.5rem 1.2rem;
-    border-radius: 8px;
-    background: linear-gradient(90deg, #ffb347 0%, #ff6e7f 100%);
-    box-shadow: 0 1px 4px #ffd6b3;
-    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    font-weight: 500;
+    font-size: 1.05rem;
+    padding: 0.4rem 1.1rem;
+    border-radius: 6px;
+    background: #5bc0be;
+    box-shadow: none;
+    transition: background 0.2s, color 0.2s;
 }
 .headbar a:hover {
-    background: #fff;
-    color: #ff6e7f;
-    box-shadow: 0 2px 8px #ffb34788;
+    background: #1c2541;
+    color: #fff;
 }
 main {
-    padding: 2.5rem 2rem 5rem 2rem;
+    padding: 2rem 1.5rem 5rem 1.5rem;
     min-height: 70vh;
     background: #fff;
-    box-shadow: 0 0 18px #ffd6b3;
-    border-radius: 24px;
+    box-shadow: 0 0 10px #e0e5ec;
+    border-radius: 18px;
     margin: 2rem auto 2rem auto;
     max-width: 900px;
 }
 footer {
     text-align: center;
-    padding: 1.2rem 1rem;
-    background: linear-gradient(90deg, #ffb347 0%, #ff6e7f 100%);
+    padding: 1rem 1rem;
+    background: #3a506b;
     color: #fff;
     position: fixed;
     width: 100%;
     bottom: 0;
     left: 0;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 1px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    box-shadow: 0 -2px 12px #ffd6b3;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    box-shadow: 0 -2px 8px #dbe2ef;
 }
 .films {
     font-size: 1.1rem;
@@ -78,65 +77,64 @@ footer {
     border-collapse: collapse;
     width: 60%;
     margin: 1rem auto;
-    background: #fffbe7;
-    border-radius: 12px;
+    background: #f6f8fa;
+    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 8px #ffe0b2;
+    box-shadow: 0 2px 6px #e0e5ec;
 }
 .tarifs th, .tarifs td {
-    border: 1px solid #ffb347;
+    border: 1px solid #bfc9d1;
     padding: 0.7rem 1.2rem;
     text-align: left;
 }
 .tarifs th {
-    background: #ffb347;
+    background: #5bc0be;
     color: #fff;
 }
 .plan {
-    background: #fffbe7;
+    background: #f6f8fa;
     padding: 1rem;
-    border-radius: 12px;
+    border-radius: 8px;
     font-family: monospace;
     display: inline-block;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 8px #ffe0b2;
+    box-shadow: 0 2px 6px #e0e5ec;
 }
 .map-link {
     display: inline-block;
-    background: linear-gradient(90deg, #ffb347 0%, #ff6e7f 100%);
+    background: #5bc0be;
     color: #fff;
-    padding: 0.8rem 1.5rem;
-    border-radius: 8px;
+    padding: 0.7rem 1.3rem;
+    border-radius: 6px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-    box-shadow: 0 2px 6px #ffd6b3;
+    font-weight: 500;
+    font-size: 1.05rem;
+    box-shadow: none;
     transition: background 0.2s, color 0.2s;
 }
 .map-link:hover {
-    background: #fff;
-    color: #ff6e7f;
-    box-shadow: 0 2px 8px #ffb34788;
+    background: #1c2541;
+    color: #fff;
 }
 header, .headbar, main, .films, .tarifs, .plan, address {
     text-align: center;
 }
 .info-cinema {
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 1.05rem;
+    font-weight: 500;
     margin-top: 0.2rem;
-    color: #ff6e7f;
+    color: #5bc0be;
     letter-spacing: 1px;
 }
 address {
-    margin: 1.5rem auto;
+    margin: 1.2rem auto;
     font-style: normal;
-    font-size: 1.1rem;
-    background: #fffbe7;
+    font-size: 1.05rem;
+    background: #f6f8fa;
     display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px #ffe0b2;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #e0e5ec;
 }
 .tarifs {
     margin-left: auto;
@@ -146,23 +144,23 @@ address {
     border-collapse: collapse;
     width: 80%;
     margin: 2rem auto;
-    background: #fffbe7;
-    box-shadow: 0 2px 8px #ffe0b2;
-    border-radius: 12px;
+    background: #f6f8fa;
+    box-shadow: 0 2px 6px #e0e5ec;
+    border-radius: 8px;
     overflow: hidden;
 }
 .programme th, .programme td {
-    border: 1px solid #ffb347;
+    border: 1px solid #bfc9d1;
     padding: 0.8rem 1.2rem;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
 }
 .programme th {
-    background: #ffb347;
+    background: #5bc0be;
     color: #fff;
 }
 .programme tr:nth-child(even) {
-    background: #fff3e0;
+    background: #eaf0f6;
 }
 @media (max-width: 700px) {
     main {
