@@ -14,8 +14,6 @@ header {
     justify-content: center;
     flex-direction: column;
     gap: 0.3rem;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
     box-shadow: 0 2px 8px #e6b3b3;
 }
 header h1 {
@@ -60,14 +58,11 @@ footer {
     padding: 1rem 1rem;
     background: #c1121f;
     color: #fff;
-    position: fixed;
     width: 100%;
     bottom: 0;
     left: 0;
     font-weight: 500;
     letter-spacing: 1px;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
     box-shadow: 0 -2px 8px #e6b3b3;
 }
 .films {
