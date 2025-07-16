@@ -14,10 +14,10 @@
             02 40 97 08 63
         </div>
         <nav class="headbar">
-            <a href="index">Accueil</a>
-            <a href="programme">Programme</a>
-            <a href="tarif">Tarifs</a>
-            <a href="plan">Plan</a>
+            <a href="index.html">Accueil</a>
+            <a href="programme.php">Programme</a>
+            <a href="tarif.html">Tarifs</a>
+            <a href="plan.html">Plan</a>
         </nav>
     </header>
     <main>
