@@ -1,0 +1,250 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f6f6;
+    color: #2d1a05;
+    overflow-x: hidden;
+}
+header {
+    background: #c1121f;
+    color: #fff;
+    padding: 1.5rem 2rem 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.3rem;
+    box-shadow: 0 2px 8px #e6b3b3;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-shadow: none;
+}
+.headbar {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.headbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+    padding: 0.4rem 1.1rem;
+    border-radius: 6px;
+    background: #e63946;
+    box-shadow: none;
+    transition: background 0.2s, color 0.2s;
+}
+.headbar a:hover {
+    background: #780000;
+    color: #fff;
+}
+main {
+    padding: 2rem 1.5rem 5rem 1.5rem;
+    min-height: 70vh;
+    background: #fff;
+    box-shadow: 0 0 10px #e6b3b3;
+    border-radius: 18px;
+    margin: 2rem auto 2rem auto;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+footer {
+    text-align: center;
+    padding: 1rem 1.5rem;
+    background: #c1121f;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 0 -2px 8px #e6b3b3;
+    box-sizing: border-box;
+}
+.films {
+    font-size: 1.1rem;
+}
+.tarifs {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 1rem auto;
+    background: #f8f6f6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px #e6b3b3;
+}
+.tarifs th, .tarifs td {
+    border: 1px solid #e63946;
+    padding: 0.7rem 1.2rem;
+    text-align: left;
+}
+.tarifs th {
+    background: #e63946;
+    color: #fff;
+}
+.plan {
+    background: #f8f6f6;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: monospace;
+    display: inline-block;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px #e6b3b3;
+}
+.map-link {
+    display: inline-block;
+    background: #e63946;
+    color: #fff;
+    padding: 0.7rem 1.3rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+    box-shadow: none;
+    transition: background 0.2s, color 0.2s;
+}
+.map-link:hover {
+    background: #780000;
+    color: #fff;
+}
+header, .headbar, main, .films, .tarifs, .plan, address {
+    text-align: center;
+}
+.info-cinema {
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-top: 0.2rem;
+    color: #e63946;
+    letter-spacing: 1px;
+}
+address {
+    margin: 1.2rem auto;
+    font-style: normal;
+    font-size: 1.05rem;
+    background: #f8f6f6;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #e6b3b3;
+}
+.tarifs {
+    margin-left: auto;
+    margin-right: auto;
+}
+.programme {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 2rem auto;
+    background: #f8f6f6;
+    box-shadow: 0 2px 6px #e6b3b3;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.programme th, .programme td {
+    border: 1px solid #e63946;
+    padding: 0.8rem 1.2rem;
+    text-align: center;
+    font-size: 1.05rem;
+}
+.programme th {
+    background: #e63946;
+    color: #fff;
+}
+.programme tr:nth-child(even) {
+    background: #f3eaea;
+}
+.film-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    margin: 2.5rem 0;
+    align-items: center;
+}
+.film-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #e6b3b3;
+    padding: 1.2rem 1.5rem;
+    gap: 2rem;
+    max-width: 700px;
+    width: 100%;
+}
+.film-img {
+    width: 120px;
+    height: 160px;
+    background: #f3eaea;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b23a48;
+    font-size: 0.95rem;
+    box-shadow: 0 1px 4px #e6b3b3;
+}
+.film-info {
+    flex: 1;
+    text-align: left;
+}
+.film-info h3 {
+    margin: 0 0 0.3rem 0;
+    color: #c1121f;
+    font-size: 1.25rem;
+}
+.film-desc {
+    margin: 0 0 0.7rem 0;
+    color: #780000;
+    font-size: 1rem;
+}
+.film-seances {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.7rem;
+    align-items: center;
+}
+.film-seances li {
+    background: #f3eaea;
+    color: #780000;
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem;
+    margin: 0;
+    display: inline-block;
+    font-size: 0.98rem;
+}
+@media (max-width: 700px) {
+    main {
+        padding: 1rem;
+        margin: 1rem;
+        max-width: 98vw;
+    }
+    header, .headbar, main, .films, .tarifs, .plan, address {
+        text-align: center;
+    }
+    .tarifs {
+        width: 100%;
+    }
+    .film-item {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0.5rem;
+    }
+    .film-info {
+        text-align: center;
+    }
+    .film-img {
+        margin-bottom: 0.7rem;
+        width: 120px;
+        height: 160px;
+    }
+}

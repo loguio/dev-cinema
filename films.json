@@ -1,0 +1,22 @@
+[
+    {
+        "titre": "Spider-man 2",
+        "desc": "Spider-man 2 est un film d'action réalisé par Sam Raimi et sorti en 2004.",
+        "image": "film_687814826b7b1.webp",
+        "seances": [
+            "Jeudi 17\/07 (19h45,21h12)",
+            "Vendredi 18\/07 (20h)",
+            "Dimanche 20\/07 (21h30)"
+        ]
+    },
+    {
+        "titre": "Spider-man No Way Home",
+        "desc": "Spider-man 2 est un film d'action réalisé par Jon Watts, sorti en 2021",
+        "image": "film_687815a7e8e6c.webp",
+        "seances": [
+            "Jeudi 17\/07 (16h45)",
+            "Samedi 19\/07 (20h)",
+            "Lundi 21\/07 (20h30)"
+        ]
+    }
+]
