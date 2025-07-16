@@ -30,35 +30,6 @@ header h1 {
 .headbar a:hover {
     color: #ffb300;
 }
-.sidebar {
-    position: fixed;
-    top: 70px;
-    left: 0;
-    width: 180px;
-    height: calc(100% - 70px);
-    background: #333;
-    padding-top: 2rem;
-}
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
-.sidebar li {
-    margin-bottom: 1.2rem;
-}
-.sidebar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
-    display: block;
-    border-radius: 4px;
-    transition: background 0.2s;
-}
-.sidebar a:hover {
-    background: #ffb300;
-    color: #222;
-}
 main {
     margin-left: 200px;
     padding: 2rem;
@@ -118,7 +89,7 @@ footer {
     background: #222;
     color: #ffb300;
 }
-header, .headbar, main, .sidebar ul, .films, .tarifs, .plan, address {
+header, .headbar, main, .films, .tarifs, .plan, address {
     text-align: center;
 }
 .headbar {
@@ -169,18 +140,11 @@ address {
     background: #f7f7f7;
 }
 @media (max-width: 700px) {
-    .sidebar {
-        position: static;
-        width: 100%;
-        height: auto;
-        padding-top: 0;
-        background: #333;
-    }
     main {
         margin-left: 0;
         padding: 1rem;
     }
-    header, .headbar, main, .sidebar ul, .films, .tarifs, .plan, address {
+    header, .headbar, main, .films, .tarifs, .plan, address {
         text-align: center;
     }
     .tarifs {
