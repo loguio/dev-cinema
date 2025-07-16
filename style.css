@@ -1,119 +1,142 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f7f7f7;
-    color: #222;
+    background: #fff7f0;
+    color: #2d1a05;
 }
 header {
-    background: #222;
+    background: linear-gradient(90deg, #ffb347 0%, #ff6e7f 100%);
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem 1rem 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0 2px 12px #ffd6b3;
 }
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-shadow: 1px 2px 8px #ffb34755;
 }
 .headbar {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 0.5rem;
 }
 .headbar a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.2s;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #ffb347 0%, #ff6e7f 100%);
+    box-shadow: 0 1px 4px #ffd6b3;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
 }
 .headbar a:hover {
-    color: #ffb300;
+    background: #fff;
+    color: #ff6e7f;
+    box-shadow: 0 2px 8px #ffb34788;
 }
 main {
-    margin-left: 200px;
-    padding: 2rem;
+    padding: 2.5rem 2rem 5rem 2rem;
     min-height: 70vh;
     background: #fff;
-    box-shadow: 0 0 10px #ddd;
+    box-shadow: 0 0 18px #ffd6b3;
+    border-radius: 24px;
+    margin: 2rem auto 2rem auto;
+    max-width: 900px;
 }
 footer {
     text-align: center;
-    padding: 1rem;
-    background: #222;
+    padding: 1.2rem 1rem;
+    background: linear-gradient(90deg, #ffb347 0%, #ff6e7f 100%);
     color: #fff;
     position: fixed;
     width: 100%;
     bottom: 0;
     left: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    box-shadow: 0 -2px 12px #ffd6b3;
 }
 .films {
-    padding-left: 1.2rem;
     font-size: 1.1rem;
 }
 .tarifs {
     border-collapse: collapse;
     width: 60%;
-    margin: 1rem 0;
+    margin: 1rem auto;
+    background: #fffbe7;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px #ffe0b2;
 }
 .tarifs th, .tarifs td {
-    border: 1px solid #bbb;
+    border: 1px solid #ffb347;
     padding: 0.7rem 1.2rem;
     text-align: left;
 }
 .tarifs th {
-    background: #ffb300;
-    color: #222;
+    background: #ffb347;
+    color: #fff;
 }
 .plan {
-    background: #f0e6d2;
+    background: #fffbe7;
     padding: 1rem;
-    border-radius: 8px;
+    border-radius: 12px;
     font-family: monospace;
     display: inline-block;
     margin-bottom: 1rem;
+    box-shadow: 0 2px 8px #ffe0b2;
 }
 .map-link {
     display: inline-block;
-    background: #ffb300;
-    color: #222;
+    background: linear-gradient(90deg, #ffb347 0%, #ff6e7f 100%);
+    color: #fff;
     padding: 0.8rem 1.5rem;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
-    box-shadow: 0 2px 6px #ccc;
+    box-shadow: 0 2px 6px #ffd6b3;
     transition: background 0.2s, color 0.2s;
 }
 .map-link:hover {
-    background: #222;
-    color: #ffb300;
+    background: #fff;
+    color: #ff6e7f;
+    box-shadow: 0 2px 8px #ffb34788;
 }
 header, .headbar, main, .films, .tarifs, .plan, address {
     text-align: center;
-}
-.headbar {
-    justify-content: center;
-}
-header {
-    flex-direction: column;
-    gap: 0.3rem;
 }
 .info-cinema {
     font-size: 1.1rem;
     font-weight: bold;
     margin-top: 0.2rem;
-    color: #ffb300;
+    color: #ff6e7f;
+    letter-spacing: 1px;
 }
 address {
     margin: 1.5rem auto;
     font-style: normal;
     font-size: 1.1rem;
-    background: #f0e6d2;
+    background: #fffbe7;
     display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px #eee;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #ffe0b2;
 }
 .tarifs {
     margin-left: auto;
@@ -124,25 +147,28 @@ address {
     width: 80%;
     margin: 2rem auto;
     background: #fffbe7;
-    box-shadow: 0 2px 8px #eee;
+    box-shadow: 0 2px 8px #ffe0b2;
+    border-radius: 12px;
+    overflow: hidden;
 }
 .programme th, .programme td {
-    border: 1px solid #bbb;
+    border: 1px solid #ffb347;
     padding: 0.8rem 1.2rem;
     text-align: center;
     font-size: 1.1rem;
 }
 .programme th {
-    background: #ffb300;
-    color: #222;
+    background: #ffb347;
+    color: #fff;
 }
 .programme tr:nth-child(even) {
-    background: #f7f7f7;
+    background: #fff3e0;
 }
 @media (max-width: 700px) {
     main {
-        margin-left: 0;
         padding: 1rem;
+        margin: 1rem;
+        max-width: 98vw;
     }
     header, .headbar, main, .films, .tarifs, .plan, address {
         text-align: center;
