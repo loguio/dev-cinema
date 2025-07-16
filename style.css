@@ -6,7 +6,7 @@ body {
     color: #2d1a05;
 }
 header {
-    background: #b23a48;
+    background: #c1121f;
     color: #fff;
     padding: 1.5rem 2rem 1rem 2rem;
     display: flex;
@@ -38,12 +38,12 @@ header h1 {
     font-size: 1.05rem;
     padding: 0.4rem 1.1rem;
     border-radius: 6px;
-    background: #e05d5d;
+    background: #e63946;
     box-shadow: none;
     transition: background 0.2s, color 0.2s;
 }
 .headbar a:hover {
-    background: #7b1e23;
+    background: #780000;
     color: #fff;
 }
 main {
@@ -58,7 +58,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem 1rem;
-    background: #b23a48;
+    background: #c1121f;
     color: #fff;
     position: fixed;
     width: 100%;
@@ -83,12 +83,12 @@ footer {
     box-shadow: 0 2px 6px #e6b3b3;
 }
 .tarifs th, .tarifs td {
-    border: 1px solid #e05d5d;
+    border: 1px solid #e63946;
     padding: 0.7rem 1.2rem;
     text-align: left;
 }
 .tarifs th {
-    background: #e05d5d;
+    background: #e63946;
     color: #fff;
 }
 .plan {
@@ -102,7 +102,7 @@ footer {
 }
 .map-link {
     display: inline-block;
-    background: #e05d5d;
+    background: #e63946;
     color: #fff;
     padding: 0.7rem 1.3rem;
     border-radius: 6px;
@@ -113,7 +113,7 @@ footer {
     transition: background 0.2s, color 0.2s;
 }
 .map-link:hover {
-    background: #7b1e23;
+    background: #780000;
     color: #fff;
 }
 header, .headbar, main, .films, .tarifs, .plan, address {
@@ -123,7 +123,7 @@ header, .headbar, main, .films, .tarifs, .plan, address {
     font-size: 1.05rem;
     font-weight: 500;
     margin-top: 0.2rem;
-    color: #e05d5d;
+    color: #e63946;
     letter-spacing: 1px;
 }
 address {
@@ -150,13 +150,13 @@ address {
     overflow: hidden;
 }
 .programme th, .programme td {
-    border: 1px solid #e05d5d;
+    border: 1px solid #e63946;
     padding: 0.8rem 1.2rem;
     text-align: center;
     font-size: 1.05rem;
 }
 .programme th {
-    background: #e05d5d;
+    background: #e63946;
     color: #fff;
 }
 .programme tr:nth-child(even) {
@@ -189,7 +189,7 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #b23a48;
+    color: #c1121f;
     font-size: 0.95rem;
     box-shadow: 0 1px 4px #e6b3b3;
 }
@@ -199,12 +199,12 @@ address {
 }
 .film-info h3 {
     margin: 0 0 0.3rem 0;
-    color: #b23a48;
+    color: #c1121f;
     font-size: 1.25rem;
 }
 .film-desc {
     margin: 0 0 0.7rem 0;
-    color: #7b1e23;
+    color: #780000;
     font-size: 1rem;
 }
 .film-seances {
@@ -214,7 +214,7 @@ address {
 }
 .film-seances li {
     background: #f3eaea;
-    color: #7b1e23;
+    color: #780000;
     border-radius: 5px;
     padding: 0.3rem 0.7rem;
     margin-bottom: 0.3rem;
