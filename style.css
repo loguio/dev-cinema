@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #222;
+}
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+.headbar {
+    display: flex;
+    gap: 1.5rem;
+}
+.headbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.headbar a:hover {
+    color: #ffb300;
+}
+.sidebar {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 180px;
+    height: calc(100% - 70px);
+    background: #333;
+    padding-top: 2rem;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar li {
+    margin-bottom: 1.2rem;
+}
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+.sidebar a:hover {
+    background: #ffb300;
+    color: #222;
+}
+main {
+    margin-left: 200px;
+    padding: 2rem;
+    min-height: 70vh;
+    background: #fff;
+    box-shadow: 0 0 10px #ddd;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.films {
+    padding-left: 1.2rem;
+    font-size: 1.1rem;
+}
+.tarifs {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 1rem 0;
+}
+.tarifs th, .tarifs td {
+    border: 1px solid #bbb;
+    padding: 0.7rem 1.2rem;
+    text-align: left;
+}
+.tarifs th {
+    background: #ffb300;
+    color: #222;
+}
+.plan {
+    background: #f0e6d2;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: monospace;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+@media (max-width: 700px) {
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+        background: #333;
+    }
+    main {
+        margin-left: 0;
+        padding: 1rem;
+    }
+}
