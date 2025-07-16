@@ -174,19 +174,19 @@ address {
     border-radius: 12px;
     box-shadow: 0 2px 8px #e6b3b3;
     padding: 1.2rem 1.5rem;
-    gap: 1.5rem;
-    max-width: 600px;
+    gap: 2rem;
+    max-width: 700px;
     width: 100%;
 }
 .film-img {
-    width: 90px;
-    height: 120px;
+    width: 120px;
+    height: 160px;
     background: #f3eaea;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #c1121f;
+    color: #b23a48;
     font-size: 0.95rem;
     box-shadow: 0 1px 4px #e6b3b3;
 }
@@ -240,5 +240,7 @@ address {
     }
     .film-img {
         margin-bottom: 0.7rem;
+        width: 120px;
+        height: 160px;
     }
 }

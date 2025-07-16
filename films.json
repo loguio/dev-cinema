@@ -1,0 +1,11 @@
+[
+    {
+        "titre": "spider-man",
+        "desc": "ceci est un film",
+        "image": "film_6878071f3a764.jpg",
+        "seances": [
+            "Dimanche (12h45,18h)",
+            "Lundi(12h45,18h)"
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Redirige /programme vers programme.php
+RewriteRule ^programme$ programme.php [L]
+
+# Redirige /tarif vers tarif.html
+RewriteRule ^tarif$ tarif.html [L]
+
+# Redirige /plan vers plan.html
+RewriteRule ^plan$ plan.html [L]
+
+# Redirige / vers index.html (optionnel si DirectoryIndex déjà configuré)
+DirectoryIndex index.html index.php 
